@@ -22,6 +22,7 @@ namespace TestDocker.Controllers
         public IEnumerable<WeatherForecast> Get()
         {
             var x = "";
+            var y = x;
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
